@@ -1,0 +1,87 @@
+USE Pharmacy 
+go
+
+CREATE TABLE Countries (
+	Country_id int PRIMARY KEY,
+	Name nvarchar(25) UNIQUE NOT NULL,
+	ShortName nvarchar(2) UNIQUE NOT NULL
+)
+go
+
+
+CREATE  INDEX ICountryName
+	ON Countries(Name)
+go
+
+
+INSERT INTO Countries(Name,ShortName,Country_Id)
+Values ('Norway', 'NO', 1),
+			('Switzerland', 'CH', 2),
+			('Australia', 'AU', 3),
+			('Ireland', 'IE', 4),
+			('Denmark', 'DK', 5),
+			('Sweden', 'SE', 6),
+			('Netherlands', 'NL', 7),
+			('Canada', 'CA', 8),
+			('New Zealand', 'NZ', 9),
+			('Finland', 'FI', 10),
+			('Singapore', 'SG', 11),
+			('Luxembourg', 'LU', 12),
+			('Belgium', 'BE', 13),
+			('Germany', 'DE', 14),
+			('United Kingdom', 'GB', 15),
+			('United States', 'US', 16),
+			('Japan', 'JP', 17),
+			('Iceland', 'IS', 18),
+			('Austria', 'AT', 19),
+			('South Korea', 'KR', 20),
+			('Hong Kong', 'HK', 21),
+			('France', 'FR', 22),
+			('Slovenia', 'SI', 23),
+			('Estonia', 'EE', 24),
+			('Cyprus', 'CY', 25),
+			('Spain', 'ES', 26),
+			('Malta', 'MT', 27),
+			('Portugal', 'PT', 28),
+			('Greece', 'GR', 29),
+			('Italy', 'IT', 30),
+			('Czech Republic', 'CZ', 31),
+			('Slovakia', 'SK', 32),
+			('Kuwait', 'KW', 33),
+			('United Arab Emirates', 'AE', 34),
+			('Saudi Arabia', 'SA', 35),
+			('Bahrain', 'BH', 36),
+			('Lithuania', 'LT', 37),
+			('Latvia', 'LV', 38),
+			('Chile', 'CL', 39),
+			('Israel', 'IL', 40),
+			('Malaysia', 'MY', 41),
+			('Qatar', 'QA', 42),
+			('Bulgaria', 'BG', 43),
+			('Poland', 'PL', 44),
+			('Uruguay', 'UY', 45),
+			('Panama', 'PA', 46),
+			('Kazakhstan', 'KZ', 47),
+			('Argentina', 'AR', 48),
+			('Croatia', 'HR', 49),
+			('Russia', 'RU', 50),
+			('Hungary', 'HU', 51),
+			('Romania', 'RO', 52),
+			('Venezuela', 'VE', 53),
+			('Ecuador', 'EC', 54),
+			('North Korea', 'KP', 55),
+			('Ukraine', 'UA', 56),
+			('Oman', 'OM', 57),
+			('Sri Lanka', 'LK', 58),
+			('Costa Rica', 'CR', 59),
+			('Belize', 'BZ', 60),
+			('Ethiopia', 'ET', 61),
+			('Jordan', 'JO', 62),
+			('Lebanon', 'LB', 63),
+			('Egypt', 'EG', 64),
+			('Algeria', 'DZ', 65),
+			('Tunisia', 'TN', 66),
+			('Morocco', 'MA', 67),
+			('Botswana', 'BW', 68),
+			('Namibia', 'NA', 69),
+			('Malawi', 'MW', 70);

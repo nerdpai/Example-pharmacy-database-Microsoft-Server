@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Procedures">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="NERDPAIPC:sa">
+          <Created>2023-05-23T11:13:20.0571768+02:00</Created>
+          <Type>SQL</Type>
+          <Server>NERDPAIPC</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="TEST PROCEDURES.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NERDPAIPC:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NERDPAIPC</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>TEST PROCEDURES.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ToArchivePrescription.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NERDPAIPC:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NERDPAIPC</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>ToArchivePrescription.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ToBuyProduct.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NERDPAIPC:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NERDPAIPC</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>ToBuyProduct.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ToKnowWhatToBuy.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NERDPAIPC:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NERDPAIPC</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>ToKnowWhatToBuy.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

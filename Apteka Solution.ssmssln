@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 19.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Pharmacy Structure", "Pharmacy Structure\Pharmacy Structure.ssmssqlproj", "{84319B3C-D3ED-4F88-B1F8-2B10CD2DF073}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Procedures", "Procedures\Procedures.ssmssqlproj", "{D7E2BD66-04E7-402A-B0EE-A55E3D5B559E}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Zad 6, 7", "Zad 6, 7\Zad 6, 7.ssmssqlproj", "{4D3E9865-9990-4229-8D81-1DAFB549A9E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84319B3C-D3ED-4F88-B1F8-2B10CD2DF073}.Default|Default.ActiveCfg = Default
+		{7468C184-802A-4342-9590-7CE6B48120DE}.Default|Default.ActiveCfg = Default
+		{D7E2BD66-04E7-402A-B0EE-A55E3D5B559E}.Default|Default.ActiveCfg = Default
+		{4D3E9865-9990-4229-8D81-1DAFB549A9E0}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C2C3E38-CB7A-4627-A1C1-60E3ADEC691B}
+	EndGlobalSection
+EndGlobal
